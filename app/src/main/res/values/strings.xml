@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">To_Do_App</string>
     <string name="app_title">SmartTask</string>
+    <string name="onboarding_title_1">Manage your tasks easily</string>
+    <string name="onboarding_title_2">Set priorities and deadlines</string>
+    <string name="onboarding_title_3">Never miss a task</string>
+    <string name="onboarding_desc_1">Create, organize and track your daily tasks in one place.</string>
+    <string name="onboarding_desc_2">Stay organized by setting priorities and due dates.</string>
+    <string name="onboarding_desc_3">Receive smart reminders and stay productive every day.</string>
 </resources>

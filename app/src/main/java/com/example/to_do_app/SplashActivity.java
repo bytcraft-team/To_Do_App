@@ -1,5 +1,4 @@
-package com.example.to_do_app.onboarding;
-
+package com.example.to_do_app ;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -12,6 +11,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.to_do_app.R;
+import com.example.to_do_app.onboarding.OnboardingActivity;
 
 @SuppressLint("CustomSplashScreen")
 public class SplashActivity extends AppCompatActivity {
@@ -37,7 +37,7 @@ public class SplashActivity extends AppCompatActivity {
 
         progressBar = findViewById(R.id.progressBar);
         txtLoading  = findViewById(R.id.txtLoading);
-        txtPercent  = findViewById(R.id.txtPercent); // ajoute cet id dans le XML
+        txtPercent  = findViewById(R.id.textPercent); // ajoute cet id dans le XML
 
         progressBar.setProgress(0);
 
@@ -77,7 +77,7 @@ public class SplashActivity extends AppCompatActivity {
     }
 
     private void goToMain() {
-        Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+        Intent intent = new Intent(SplashActivity.this, OnboardingActivity.class);
         startActivity(intent);
         finish(); // empêche le retour arrière vers la splash
     }
