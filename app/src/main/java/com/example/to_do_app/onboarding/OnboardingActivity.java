@@ -9,8 +9,9 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
 
-import com.example.to_do_app.LoginActivity;
+import com.example.to_do_app.activities.SignUpActivity;
 import com.example.to_do_app.R;
+import com.example.to_do_app.adapters.OnboardingAdapter;
 
 import java.util.Arrays;
 import java.util.List;
@@ -143,7 +144,7 @@ public class OnboardingActivity extends AppCompatActivity {
 
     private void openLogin() {
 
-        Intent intent = new Intent(OnboardingActivity.this, LoginActivity.class);
+        Intent intent = new Intent(OnboardingActivity.this, SignUpActivity.class);
         startActivity(intent);
         finish();
 

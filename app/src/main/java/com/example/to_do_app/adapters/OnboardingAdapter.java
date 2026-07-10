@@ -1,4 +1,4 @@
-package com.example.to_do_app.onboarding;
+package com.example.to_do_app.adapters;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.example.to_do_app.R;
+import com.example.to_do_app.onboarding.OnboardingItem;
 
 import java.util.List;
 

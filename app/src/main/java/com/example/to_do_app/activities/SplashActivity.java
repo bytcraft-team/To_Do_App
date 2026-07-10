@@ -1,4 +1,4 @@
-package com.example.to_do_app ;
+package com.example.to_do_app.activities;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
